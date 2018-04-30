@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <meta name="keywords" content="glasses"/>
+  <meta name="author" content="Eachplus Technology; Each+; 趋佳科技"/>
+  <title>英孚教育</title>
+  <!--<link rel="shortcut icon" href="{{ static_url('images/favicon.ico') }}" type="image/ico"/>-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="sticky-header">
+  <div class="face-pre-loaded"><span></span></div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <span class="white iconfont icon-guanliyuan"></span>
+    <a href="#"><button id="base_btn1" type="button" class="btn btn-default mleft10">Dashboard</button></a>
+    <a href="#"><button id="base_btn2" type="button" class="btn btn-default">leads管理</button></a>
+    <a href="#"><button id="base_btn3" type="button" class="btn btn-default">城市管理</button></a>
+  </nav>
+
+  <div class="toast-container">
+      <div class="toast_content"><!-- put toast message here --></div>
+  </div>
+  <div class="container well" style="width:550px;margin-top: 80px;">
+    <form class="form-horizontal">
+        <fieldset>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">姓名：</label>
+            <div class="col-lg-6">
+                <input type="text" class="form-control"  id="username" name="username">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">邮箱：</label>
+            <div class="col-lg-6">
+                <input type="text" class="form-control"  id="eamil" name="password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">手机：</label>
+            <div class="col-lg-6">
+                <input type="text" class="form-control"  id="phone" name="password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">简要介绍：</label>
+            <div class="col-lg-6">
+                <textarea type="text" class="form-control"  id="description" name="password"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-8">
+                <button class="btn btn-lg btn-primary" type="button" id="dologin">提交</button>
+            </div>
+        </div>
+        </fieldset>
+    </form>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!--<script src="{{ static_url('js/ajaxfileupload.js') }}"></script>-->
+  <script src="js/show-toast.js"></script>
+  </div>
+</body>
+
+</html>
